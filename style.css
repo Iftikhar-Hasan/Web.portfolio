@@ -69,11 +69,15 @@ section{
   .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 75%;
+    width: 300px;
+    height:400px
   }
   .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+  }
+  .container{
+    display: flex;
   }
   #full-stack{
     border-left: 7px solid;
@@ -85,9 +89,10 @@ section{
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
   }
- footer p{
-  text-align: right;
- }
+  .footer{
+    text-align: right;
+  }
+ 
   
   
   
